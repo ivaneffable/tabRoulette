@@ -1,0 +1,52 @@
+body {
+  background-color: #fcefcb;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  margin: 0;
+}
+
+button {
+  background-color: #fad59a;
+  color: #a86523;
+  border: 2px solid #a86523;
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 8px 0;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #e9a319;
+  color: white;
+  transform: scale(1.05);
+}
+
+#spin {
+  background-color: #e9a319;
+  color: white;
+}
+
+#spin:hover {
+  background-color: #a86523;
+}
+
+#tip {
+  background-color: #fad59a;
+}
+
+h1 {
+  color: #a86523;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+button#tip {
+  display: none;
+}
